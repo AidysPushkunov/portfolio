@@ -43,7 +43,7 @@ export const About: React.FC = () => {
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={6} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={1} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Month of <br />
