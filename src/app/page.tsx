@@ -16,7 +16,6 @@ export default function Home() {
       <Services />
       <Work />
       <Contact />
-      {/* <div className="h-[4000px]"></div> */}
     </div>
   );
 }
