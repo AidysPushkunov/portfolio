@@ -30,7 +30,7 @@ const config: Config = {
       },
       backgroundImage: {
         site: "url('/assets/site-bg.jpg')",
-        about: "url('/assets/about.png')",
+        about: "url('/assets/developer.jpg')",
         services: "url('/assets/Binary code-amico.svg')",
       },
     },

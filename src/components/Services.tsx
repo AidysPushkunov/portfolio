@@ -7,21 +7,18 @@ import { fadeIn } from "../lib/variants";
 
 const services = [
   {
-    name: "UI/UX Design",
-    description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-    Consequuntur quaerat assumenda.`,
+    name: "Frontend development",
+    description: `Develop web applications using Next.js, TypeScript, TailwindCSS, React.js, ReactKonva...`,
     link: "Learn more",
   },
   {
-    name: "Development",
-    description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-    Consequuntur quaerat assumenda.`,
+    name: "Backend development",
+    description: `I can develop a simple server-side application using Node.js, Nest.js, Express.js, Socket.io...`,
     link: "Learn more",
   },
   {
-    name: "Digital Marketing",
-    description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-    Consequuntur quaerat assumenda.`,
+    name: "Additionally",
+    description: `I like developing applications, understanding and finding solutions to complex problems. `,
     link: "Learn more",
   },
 ];
@@ -57,7 +54,7 @@ export const Services: React.FC = () => {
                 const { name, description, link } = service;
                 return (
                   <div
-                    className="border-b border-white/20 h-[146px] mb-[38px] flex"
+                    className="border-b border-white/20 h-[146px] mb-[38px] flex justify-center"
                     key={index}
                   >
                     <div className="max-w-[475px]">
@@ -68,17 +65,7 @@ export const Services: React.FC = () => {
                         {description}
                       </p>
                     </div>
-                    <div className="flex flex-col flex-1 items-end">
-                      <a
-                        href="#"
-                        className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
-                      >
-                        <BsArrowUpRight />
-                      </a>
-                      <a href="#" className="text-gradient text-sm">
-                        {link}
-                      </a>
-                    </div>
+
                   </div>
                 );
               })}
