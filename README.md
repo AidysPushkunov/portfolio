@@ -1,4 +1,4 @@
-# Aidar Pushkunov's Portfolio
+# Aidys Pushkunov Portfolio
 
 Welcome to my portfolio! Here you'll find my projects that I've developed and been involved in. My portfolio reflects my experience and skills in web development and other technologies.
 
