@@ -31,7 +31,7 @@ export const About: React.FC = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              I am Junior Front-end developer. I'm just starting my career in
+              I am Front-end developer. I'm just starting my career in
               IT.
             </h3>
             <p className="mb-6">
